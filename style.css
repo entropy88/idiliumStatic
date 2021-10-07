@@ -24,6 +24,28 @@ body {
     border-right: 1px solid gray;
 }
 
+
+.container img {
+    float: right;
+    width:30%; 
+    margin:1rem;    
+}
+
+.container img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.fa-download {
+    float: right;
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color:#40bf40;
+    color: #f2f2f2;
+    border: 1px solid gray;
+}
+
 ul {
     list-style: none;
 }
@@ -58,7 +80,7 @@ span {
     font-weight: bold;
 }
 
-.download-button {
+/* .download-button {
     color: #f2f2f2;
     background-color: #40bf40;
     font-weight: bold;
@@ -79,7 +101,7 @@ span {
     color: #f2f2f2;
     margin-left: 1rem;
     margin-right: 1rem;
-}
+} */
 
 
 
@@ -133,26 +155,21 @@ span {
 
 footer {
     position: fixed;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
     bottom: 0;
     width: 100%;
     justify-content: center;
     /* Height of the footer*/
     font-weight: bold;
     color: white;
-    height: 40px;
+    height: 50px;
     background-color: #40bf40;
     text-align: center;
     border-top: 1px solid gray;
 }
 
-img {
+footer img {
     height: 40px;
-}
-
-
-footer span {
-    font-size: 1.5em;
 }
 
 section h3 {
